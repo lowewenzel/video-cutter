@@ -39,7 +39,7 @@ def read_csv_to_video_sections(file_name):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) is not 3:
+    if len(sys.argv) != 3:
         print("Err: Missing file inputs! \n\n--Proper Usage--")
         print('python main.py video_file.mp4 rows.csv')
         print(
