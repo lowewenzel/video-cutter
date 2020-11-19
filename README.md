@@ -13,7 +13,12 @@ cd video-cutter
 
 # virtual env
 python3 -m venv env
+
+# bash
 source env/bin/activate
+# windows
+.\env\Scripts\activate
+
 pip install -r requirements.txt
 ```
 
